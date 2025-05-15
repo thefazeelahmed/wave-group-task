@@ -2,6 +2,7 @@ const express = require('express');
 const initializeDatabase = require('./src/db/init');
 require('dotenv').config();
 const userRoutes = require('./src/routes/user');
+const uploadRoutes = require('./src/middleware/upload');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
