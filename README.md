@@ -1,5 +1,3 @@
-# wave-group-task
-
 # Click Fit 💪
 
 A modern fitness website that helps users track their fitness journey, discover workouts, and learn about nutrition. Built with a clean, responsive design and interactive features.
@@ -13,17 +11,24 @@ A modern fitness website that helps users track their fitness journey, discover 
 
 ## Quick Start
 
-1. Install dependencies:
+### Frontend
+The frontend is built with plain HTML/CSS/JS and can be run directly:
+1. Navigate to the `frontend` folder
+2. Open `index.html` in your browser
+3. That's it! 🎉
+
+### Backend (API Server)
+The backend runs on port 3000 and handles image uploads and data:
+1. Navigate to the `backend` folder
+2. Install dependencies:
 ```bash
 npm install
 ```
-
-2. Start the server:
+3. Start the server:
 ```bash
 npm start
 ```
-
-3. Open `http://localhost:3000` in your browser
+4. Server will be running at `http://localhost:3000`
 
 ## Tech Stack
 
@@ -32,3 +37,10 @@ npm start
 - Database: MySQL
 - Features: Image upload, responsive design, animations
 
+## Screenshots
+
+Coming soon!
+
+## Contact
+
+Have questions? Email us at contact@clickfit.com 
